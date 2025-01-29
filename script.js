@@ -7,9 +7,7 @@ function firstWord(s) {
 	return s.split(' ')[0];
 }
 
-window.onload = function() {
-  document.getElementById('fname').onblur = capitalizeName; // Set the onblur event handler
-};
+
 
 // Do not change the code below
 
