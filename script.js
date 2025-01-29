@@ -1,9 +1,10 @@
 function firstWord(s) {
   // your code here
-	let result=s.trim().split(' ');
-	for(i=0;i<1;i++){
-		return result[i];
-	}
+	s = s.trim();
+	if(s==" "){
+	   return '';
+	 }
+return s.split(' ')[0];
 
 }
 
